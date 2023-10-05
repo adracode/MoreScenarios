@@ -1,0 +1,31 @@
+#The name of your world. Can be found in server.properties
+morescenarios.world-name: world
+
+#Message for scenarios manager
+command.scenarios.error: "&cSpecify a scenario"
+command.scenarios.noexist: "&cThis scenario doesn't exists"
+command.scenarios.activated: "&aThis scenario is now active"
+command.scenarios.deactivated: "&cThis scenario is no more active"
+
+#Custom death message with blood enchant
+scenario.bloodenchant.death: "has enchanted too much"
+
+#To remove items, use bukkit material name of items
+scenario.flowerpower.remove-items: [BLAZE_ROD, BREWING_STAND_ITEM]
+
+#Name and description of golden heads
+scenario.goldenretriever.displayname: "&bGolden Head"
+scenario.goldenretriever.lore:
+
+#Pick a random effect among this list
+scenario.killeffect.effects: [SPEED, SLOW, FAST_DIGGING, SLOW_DIGGING, INCREASE_DAMAGE, JUMP, CONFUSION, DAMAGE_RESISTANCE, FIRE_RESISTANCE, WATER_BREATHING, INVISIBILITY, BLINDNESS, NIGHT_VISION, HUNGER, WEAKNESS, POISON]
+#If a player has already the random effect, increase it of one level
+scenario.killeffect.max-level: 10
+scenario.killeffect.duration: 200
+scenario.killeffect.show-particles: true
+
+#Manage time for permakill scenario
+scenario.permakill.start-day: 0
+scenario.permakill.end-day: 12000
+scenario.permakill.set-day: 6000
+scenario.permakill.set-night: 18000

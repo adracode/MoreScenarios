@@ -1,0 +1,10 @@
+name: MoreScenarios
+version: 1.0
+main: fr.adracode.morescenarios.MoreScenarios
+commands:
+  morescenarios:
+    permission: morescenarios.command.morescenarios
+  start:
+    permission: morescenarios.command.start
+  pregen:
+    permission: morescenarios.command.pregen
